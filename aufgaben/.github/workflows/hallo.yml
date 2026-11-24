@@ -1,0 +1,11 @@
+name: Hallo Radhaus
+
+on: 
+  push:
+  workflow_dispatch:
+
+jobs:
+  hallo:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "hallo JJ"
